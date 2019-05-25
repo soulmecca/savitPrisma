@@ -1,0 +1,24 @@
+{
+   "name": "savitPrisma",
+   "version": "1.0.0",
+   "description": "new savit with Express, Prisma, React, ReactNative",
+   "repository": "https://github.com/soulmecca/savitPrisma.git",
+   "author": "soulmecca <soulmecca@gmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "dev": "nodemon --exec babel-node src/server.js"
+   },
+   "dependencies": {
+      "@babel/core": "^7.4.5",
+      "@babel/node": "^7.4.5",
+      "@babel/preset-env": "^7.4.5",
+      "dotenv": "^7.0.0",
+      "graphql-tools": "^4.0.4",
+      "graphql-yoga": "^1.17.4",
+      "merge-graphql-schemas": "^1.5.8",
+      "morgan": "^1.9.1"
+   },
+   "devDependencies": {
+      "nodemon": "^1.18.10"
+   }
+}
