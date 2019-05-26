@@ -5,8 +5,6 @@ import schema from "./schema";
 
 const PORT = process.env.PORT || 4000;
 
-console.log("!!!!! ", schema);
-
 const server = new GraphQLServer({ schema });
 
 server.express.use(logger("dev"));
