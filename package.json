@@ -6,7 +6,10 @@
    "author": "soulmecca <soulmecca@gmail.com>",
    "license": "MIT",
    "scripts": {
-      "dev": "nodemon --exec babel-node src/server.js"
+      "dev": "nodemon --exec babel-node src/server.js",
+      "deploy": "prisma deploy",
+      "generate": "prisma generate",
+      "prisma": "yarn deploy && yarn generate"
    },
    "dependencies": {
       "@babel/core": "^7.4.5",
@@ -16,7 +19,8 @@
       "graphql-tools": "^4.0.4",
       "graphql-yoga": "^1.17.4",
       "merge-graphql-schemas": "^1.5.8",
-      "morgan": "^1.9.1"
+      "morgan": "^1.9.1",
+      "prisma-client-lib": "^1.33.0"
    },
    "devDependencies": {
       "nodemon": "^1.18.10"
