@@ -13,6 +13,7 @@ type User {
    following: [User!]! @relation(name: "FollowRelation")
    createdAt: DateTime! @createdAt
    updatedAt: DateTime! @updatedAt
+   loginSecret: String
 }
 
 type Post {
