@@ -23,11 +23,12 @@ const sendMail = email => {
 };
 
 export const sendSecretMail = (address, secret) => {
+   
    const email = {
       from: "thesavit@gmail.com",
       to: address,
       subject: "Login Secret for Prismagram🔒",
-      html: `Hello! Your login secret is ${secret}.<br/>Copy and paste on the app/web to log in.`
+      html: `Hello! Your login secret is <b>${secret}.</b><br/>Copy and paste on the app/web to log in.`
    };
 
    return sendMail(email);
