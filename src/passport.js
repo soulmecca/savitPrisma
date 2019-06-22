@@ -1,5 +1,6 @@
 import passport from 'passport';
 import {Strategy, ExtractJwt} from 'passport-jwt';
+import { prisma } from '../generated/prisma-client';
 
 const secret = process.env.JWT_SECRET;  
 
@@ -11,7 +12,6 @@ const jwtOptions  = {
 const verifyUser = async (payload, done) => {
     try {
         const user = await prisma.user({id: payload.id});
-
         if (user !== null) {
             return done(null, user);
         }else {
@@ -30,6 +30,7 @@ export const authenticateJwt = (req, res, next) => {
         next();
     })(req, res, next);
 }
+
 
 passport.use(new Strategy(jwtOptions, verifyUser));
 passport.initialize();
