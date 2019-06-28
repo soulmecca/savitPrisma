@@ -8,7 +8,7 @@
 - [] Search by user
 - [] Search by location
 - [] See user profile
-- [] Follow / Unfollow user
+- [X] Follow / Unfollow user
 - [] See the full photo
 - [] Edit my profile
 - [] Upload a photo
