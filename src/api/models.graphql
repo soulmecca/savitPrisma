@@ -70,3 +70,10 @@ type Message {
    createdAt: String
    updatedAt: String
 }
+
+
+type UserProfile{
+    userProfile: User!
+    posts: [Post!]!
+}
+

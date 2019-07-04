@@ -5,6 +5,8 @@
 - [X] Confirm Secret (Login)
 - [X] Like / Unlike Photo
 - [X] Comment a photo
+- [X] See user profile
+- [X] See my profile
 - [] Search by user
 - [] Search by location
 - [] See user profile

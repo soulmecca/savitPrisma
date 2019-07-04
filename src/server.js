@@ -13,7 +13,7 @@ import { isAuthenticated } from './middlewares';
 const port = process.env.PORT;
 const PORT = process.env.PORT || 4000;
 
-// * { request } means there is request object from graphql then 
+// * { request } means there is request object from graphql
 // * then we destructure it to get request object inside of it 
 // * this request object is from Express 
 
