@@ -5,13 +5,13 @@
 - [X] Confirm Secret (Login)
 - [X] Like / Unlike Photo
 - [X] Comment a photo
+- [X] Follow / Unfollow user
 - [X] See user profile
 - [X] See my profile
+- [X] See the full photo
 - [] Search by user
 - [] Search by location
 - [] See user profile
-- [X] Follow / Unfollow user
-- [] See the full photo
 - [] Edit my profile
 - [] Upload a photo
 - [] Edit the photo (Delete)

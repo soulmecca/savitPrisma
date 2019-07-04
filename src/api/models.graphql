@@ -71,9 +71,7 @@ type Message {
    updatedAt: String
 }
 
-
 type UserProfile{
     userProfile: User!
     posts: [Post!]!
 }
-
