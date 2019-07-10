@@ -3,6 +3,7 @@ type User {
    username: String!
    firstName: String!
    lastName: String!
+   fullName: String
    email: String!
    bio: String
    posts: [Post!]!
@@ -11,9 +12,11 @@ type User {
    rooms: [Room!]!
    followers: [User!]!
    following: [User!]!
+   isFollowing: Boolean!
    createdAt: String
    updatedAt: String
    loginSecret: String
+   isMe: Boolean!
 }
 
 type Post {
@@ -24,6 +27,7 @@ type Post {
    files: [File!]!
    likes: [Like!]!
    comments: [Comment!]!
+   isLiked: Boolean!
    createdAt: String
    updatedAt: String
 }
@@ -72,6 +76,6 @@ type Message {
 }
 
 type UserProfile{
-    userProfile: User!
+    user: User
     posts: [Post!]!
 }

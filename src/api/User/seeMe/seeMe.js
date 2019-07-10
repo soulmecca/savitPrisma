@@ -9,7 +9,7 @@ export default {
             const userProfile = await prisma.user({ id: user.id });
             const posts = await prisma.user({ id: user.id }).posts();
             return {
-                userProfile,
+                user: userProfile,
                 posts
             }
             // return prisma.user({ id: user.id }).$fragment(USER_FRAGMENT);
