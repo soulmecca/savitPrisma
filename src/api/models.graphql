@@ -24,10 +24,11 @@ type Post {
    location: String
    caption: String!
    user: User
-   files: [File!]!
-   likes: [Like!]!
-   comments: [Comment!]!
+   files: [File!]
+   likes: [Like!]
+   comments: [Comment!]
    isLiked: Boolean!
+   likeCount: Int!
    createdAt: String
    updatedAt: String
 }
