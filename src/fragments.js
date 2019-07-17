@@ -5,7 +5,7 @@ export const USER_FRAGMENT = `
         firstName
         lastName
         bio
-`
+`;
 
 export const COMMENT_FRAGMENT = `
     id
@@ -13,12 +13,12 @@ export const COMMENT_FRAGMENT = `
     user {
         ${USER_FRAGMENT}
     }
-`
+`;
 
 export const FILE_FRAGMENT = `
     id
     url
-`
+`;
 
 export const FULL_POST_FRAGMENT = `
     fragment PostParts on Post {
@@ -38,5 +38,4 @@ export const FULL_POST_FRAGMENT = `
             ${USER_FRAGMENT}
         }
     }
-`
-
+`;

@@ -1,22 +1,22 @@
 ## User Stories
 
-- [X] Create Account 
-- [X] Request Secret
-- [X] Confirm Secret (Login)
-- [X] Like / Unlike Photo
-- [X] Comment a photo
-- [X] Follow / Unfollow user
-- [X] See user profile
-- [X] See my profile
-- [X] See the full photo
-- [] Search by user
-- [] Search by location
-- [] See user profile
-- [] Edit my profile
-- [] Upload a photo
-- [] Edit the photo (Delete)
-- [] See the feed
-- [] See rooms
-- [] See room
-- [] Send private Message
-- [] Receive Message (Realtime)
+-   [x] Create Account
+-   [x] Request Secret
+-   [x] Confirm Secret (Login)
+-   [x] Like / Unlike Photo
+-   [x] Comment a photo
+-   [x] Follow / Unfollow user
+-   [x] See user profile
+-   [x] See my profile
+-   [x] See the full photo
+-   [x] Search by user
+-   [x] Search by location
+-   [x] See user profile
+-   [x] Edit my profile
+-   [x] Upload a photo
+-   [x] Edit the photo (Delete)
+-   [] See the feed
+-   [] See rooms
+-   [] See room
+-   [] Send private Message
+-   [] Receive Message (Realtime)
