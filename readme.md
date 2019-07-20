@@ -16,7 +16,7 @@
 -   [x] Upload a photo
 -   [x] Edit the photo (Delete)
 -   [x] See the feed
--   [] See rooms
+-   [x] See rooms
 -   [] See room
 -   [] Send private Message
 -   [] Receive Message (Realtime)
